@@ -104,6 +104,8 @@ const buildSharedExtraPlugins = () => [
         context: styleguidePath('src/fonts'),
         to: warBuildPath('fonts'),
       },
+      // [anima] Inter do Design System (referenciada pelo tema em ../../../fonts/anima). Ver README-ANIMA.md.
+      { from: 'anima/*', context: styleguidePath('src/fonts'), to: warBuildPath('fonts') },
       { from: styleguidePath('src/locales'), to: warBuildPath('locales') },
     ],
   }),
