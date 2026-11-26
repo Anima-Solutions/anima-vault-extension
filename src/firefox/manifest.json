@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
   "name": "__MSG_appName__",
-  "short_name": "passbolt",
+  "short_name": "Ânima Vault",
   "version": "5.18.1",
   "description": "__MSG_appDescription__",
   "default_locale": "en",
   "browser_specific_settings": {
     "gecko": {
-      "id": "passbolt@passbolt.com",
+      "id": "vault@animahub.ai",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": ["none"]
@@ -29,7 +29,7 @@
         "dark": "webAccessibleResources/img/icons/icon-32.png",
         "size": 32
     }],
-    "default_title": "Passbolt Quickaccess"
+    "default_title": "Ânima Vault"
   },
   "commands": {
     "_execute_browser_action": {},
@@ -38,7 +38,7 @@
         "default": "Alt+Shift+P",
         "mac": "Alt+Shift+P"
       },
-      "description": "Open passbolt in a new tab!"
+      "description": "Abrir o Ânima Vault em uma nova aba"
     }
   },
   "permissions": [
